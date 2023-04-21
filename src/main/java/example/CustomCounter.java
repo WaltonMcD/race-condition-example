@@ -1,6 +1,6 @@
 package example;
 
-public class Counter implements Runnable{
+public class CustomCounter implements Runnable{
     private int val = 0;  
     public void increment() {   
         val++;  
